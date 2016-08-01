@@ -29,10 +29,10 @@ def join_dicts(dicts):    #Name değişkenine göre gezerek aynı olanları tek 
     return joined_dict
 
 #Dosyaları okumamıza yarayan metoda gönderiyor ve bunları değişkene aktarıyoruz.
-sysaid = csv_to_dict('Sysaid1.csv')
+sysaid = csv_to_dict('Sysaid.csv')
 sep = csv_to_dict('SEP2.csv')
-bigfix = csv_to_dict('Bigfix1.csv')
-qRadar = csv_to_dict('QRadar1.csv')
+bigfix = csv_to_dict('Bigfix.csv')
+qRadar = csv_to_dict('QRadar.csv')
 ad = csv_to_dict('AD.csv')
 
 #Her bir okuyup değişkene atadığımız dosyayı Name değişkenine göre kontrol eden metoda gönderiyoruz

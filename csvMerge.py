@@ -1,9 +1,7 @@
 #  -*- coding=utf-8 -*-
 import csv
 
-#print 'ADA-DH-D001'.lower() == 'ada-dh-d001'    #lower fonksiyonunun denenmesi küçük harfe çevirmeye yarıyor.
-
-def csv_to_dict(file_name):   #bu metod csv dosyalarını alıp parse edip yeni bir listeye atmamıza yarıyor
+def csv_to_dict(file_name):   #bu fonksiyon csv dosyalarını alıp parse edip yeni bir listeye atmamıza yarıyor
     dict = []
 
     item = {}
